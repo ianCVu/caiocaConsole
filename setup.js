@@ -6,6 +6,7 @@ async function setUpCaiocaConsole() {
       redirect : "follow"
     });
     caiocaData = await data.json();
+    await console.log(caiocaData);
   } catch (e) {
     console.error(e);
   }
