@@ -4,7 +4,7 @@ Attackers with this tool can reset Scratch passwords, find private projects, and
 # Setting up Caioca Console 1.0
 Setting up Caioca Console 1.0 only requires simple steps. First, you'll need to fetch the JSON from our Github Repo. To do that, you'll need a fetch API.
 ```javascript
-let response = await fetch("https://github.com/ianCVu/caiocaConsole/raw/refs/heads/main/data.json", { method : "GET" });
+let response = await fetch("https://raw.githubusercontent.com/ianCVu/caiocaConsole/refs/heads/main/data.json", { method : "GET" });
 ```
 After `response` is defined, the value must be parsed into JSON.
 ```javascript
